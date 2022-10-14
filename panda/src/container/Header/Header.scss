@@ -1,0 +1,40 @@
+header {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header__container-logo {
+
+        .header__logo {
+            width: 300px;
+        }
+    }
+
+    .header__container-links {
+        display: flex;
+        flex-direction: column;
+
+        .header__link {
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+            border: none;
+            border-radius: 6px;
+
+            font-family: var(--font-base);
+            font-weight: 600;
+            font-size: 1.4rem;
+            text-align: center;
+
+            padding: 1rem 1.5rem;
+            margin-top: 3rem;
+
+
+        }
+
+        .fa-phone,
+        .fa-utensils {
+            font-size: 2rem;
+        }
+    }
+}
