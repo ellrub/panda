@@ -11,12 +11,7 @@ const style = {
     position: 'absolute',
     top: '50%',
     left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
+    transform: 'translate(-50%, -50%)'
 };
 
 
@@ -33,13 +28,18 @@ const ModalContact = () => {
                 open={open}
                 onClose={handleClose}
             >
-                <Box sx={style}>
-                <Typography id="modal__time-title">
+                <Box sx={style} className="modal__contact-box">
+                <Typography id="modal__contact-title">
                     Kontakt Oss
                 </Typography>
-                <Typography id="modal__time-description" sx={{ mt: 2 }}>
-                    TLF: 458 14 990<br/>post@pandamat.no
-                </Typography>
+                <div className="modal__contact-descript-box">
+                    <Typography id="modal__contact-description" sx={{ mt: 2 }}>
+                        <a href="tel:+4745814990">TLF: 458 14 990</a>
+                    </Typography>
+                    <Typography id="modal__contact-description" sx={{ mt: 2 }}>
+                        <a href="mailto:post@pandamat.no">post@pandamat.no</a>
+                    </Typography>
+                </div>
                 </Box>
             </Modal>
         </div>
