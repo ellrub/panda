@@ -11,6 +11,7 @@ const Header = () => {
             </div>
             <div className="header__container-links">
                 <a 
+                    href="tel:+4745814990"
                     className="header__container-link--call header__link">
                         <i className="fa-solid fa-phone"></i><br/>Ring & Bestill
                 </a>
