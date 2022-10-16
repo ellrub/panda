@@ -12,11 +12,6 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
 };
 
 
@@ -33,13 +28,28 @@ const ModalLocation = () => {
                 open={open}
                 onClose={handleClose}
             >
-                <Box sx={style}>
-                <Typography id="modal__time-title">
-                    Her Finner Du Oss
-                </Typography>
-                <Typography id="modal__time-description" sx={{ mt: 2 }}>
-                    Sandslihaugen 10<br/>5254 Sandsli
-                </Typography>
+                <Box sx={style} className="modal__location-box">
+                    <Typography id="modal__location-title">
+                        Her Finner Du Oss
+                    </Typography>
+                    <Typography id="modal__location-description" sx={{ mt: 2 }}>
+                        Sandslihaugen 10<br/>5254 Sandsli
+                    </Typography>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe 
+                                width="320" 
+                                height="400" 
+                                id="gmap_canvas" 
+                                src="https://maps.google.com/maps?q=panda%20mat%20sandsli&t=&z=17&ie=UTF8&iwloc=&output=embed" 
+                                frameborder="0" 
+                                scrolling="no" 
+                                marginheight="0" 
+                                marginwidth="0">
+                            </iframe>
+                                
+                        </div>
+                    </div>
                 </Box>
             </Modal>
         </div>
