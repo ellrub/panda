@@ -1,0 +1,27 @@
+.modal__time-box {
+    background-color: var(--secondary-color);
+    
+    margin: 0 auto;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 1px 3px 0px black;
+
+    text-align: center;
+    
+
+    #modal__time-title {
+        font-family: var(--font-base);
+        font-weight: 600;
+        font-size: 1.8rem;
+        color: var(--primary-color);
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    #modal__time-description {
+        font-family: var(--font-base);
+        font-weight: 600;
+        color: var(--primary-color);
+        padding-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+}
