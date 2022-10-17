@@ -5,7 +5,7 @@ import "./Header.scss";
 
 const Header = () => {
     return (
-        <header>
+        <header id="home">
             <div className="header__container-logo">
                 <img src={images.panda} alt="Panda Mat Logo" className="header__logo"/>
             </div>
@@ -15,7 +15,7 @@ const Header = () => {
                     className="header__container-link--call header__link">
                         <i className="fa-solid fa-phone"></i><br/>Ring & Bestill
                 </a>
-                <a 
+                <a  href="#menu"
                     className="header__container-link--menu header__link">
                         <i className="fa-solid fa-utensils"></i><br/>Meny
                 </a>

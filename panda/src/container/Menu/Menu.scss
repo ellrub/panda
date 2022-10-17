@@ -60,9 +60,18 @@
             }
         }
 
+        .menu__price {
+            line-height: 1.45rem;
+        }
+
 
     }
 }
+
+.blank {
+    color: var(--secondary-color);
+}
+
 
 
 

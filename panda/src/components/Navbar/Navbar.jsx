@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <Button id="" className="navbar__button" size="small"><AiOutlineHome /></Button>
+            <Button href="#home" className="navbar__button" size="small"><AiOutlineHome /></Button>
             <ModalTime />
             <ModalLocation />
             <ModalContact />

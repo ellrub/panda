@@ -8,18 +8,16 @@ nav {
     bottom: 0;
 
     padding: 1rem 1rem;
-    background: rgba(0, 0, 0, 0.10);
+    background: var(--primary-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 10px 10px 5px black;
 
     .navbar__button {
-        
-        
         display: flex;
         justify-content: center;
         align-items: center;
 
-        
         border: none;
         border-radius: 25%;
 
