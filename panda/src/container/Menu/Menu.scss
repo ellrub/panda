@@ -1,75 +1,70 @@
-.menu {
-    margin-top: 8rem;
-    height: 600px;
+main {
+    font-family: var(--font-base);
+    margin-top: 2rem;
 
-    h2 {
-        color: var(--secondary-color);
+    .menu__text-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        li {
+            list-style-type: none;
+        }
+        
+    
+        .menu__text {
+            color: var(--secondary-color);
 
-        font-family: var(--font-base);
-        font-weight: 600;
-        font-size: 1.6rem;
-        text-align: center;
+            font-weight: 400;
+            font-size: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    
+    }
+    
+    .menu__alergy {
+        padding-left: 1rem;
+        font-size: 0.8rem;
+        color: rgb(224, 101, 101);
     }
 
-    .menu__card-container {
-        background-color: var(--secondary-color);
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 6px;
-        box-shadow: 0 1px 3px 0px black;
+    .menu__underline-container {
+        display: flex;
+        justify-content: center;
 
-        font-family: var(--font-base);
-        color: var(--primary-color);
+        .menu__underline {
+            border-bottom: 4px solid var(--secondary-color);
+            width: 21rem;
+            border-radius: 6px;
+        }
+    }
 
+    article {
+        margin-bottom: 2rem;
+    }
+
+    .menu__info {
+        text-align: center;
+        color: var(--secondary-color);
         padding: 0.5rem;
 
+        p {
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+
         h3 {
-            font-weight: 600;
-            letter-spacing: 0.05rem;
-            text-transform: uppercase;
+            font-size: 1rem;
+            margin-top: 1rem;
         }
+        
     }
 
-    .menu__card-item-container {
-        display: flex;
-        justify-content: space-between;
-        line-height: 1.4rem;
-
-        .menu__number {
-            line-height: 1.45rem;
-            font-size: 0.9rem;
-        }
-
-        ol {
-            margin-left: 1.3rem;
-        }
-
-        .menu__text {
-            color: var(--primary-color);
-            font-family: var(--font-base);
-            font-size: 0.9rem;
-            letter-spacing: 0.05rem;
-
-            span {
-                text-decoration: underline;
-                color: rgb(83, 16, 16);
-
-                text-transform: uppercase;
-                font-size: 0.7rem;
-
-            }
-        }
-
-        .menu__price {
-            line-height: 1.45rem;
-        }
-
-
-    }
 }
 
-.blank {
-    color: var(--secondary-color);
+.space {
+    height: 100px;
 }
 
 

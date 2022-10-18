@@ -162,7 +162,7 @@ const list = [
     },
     {
         id: 37,
-        title: '37. Sprøstekt svinekjøtt med scechuansaus (HOT)',
+        title: '37. Sprøstekt svinekjøtt med szechuansaus (HOT)',
         category: 'svinekjøtt',
         price: "159kr",
         alergy: `GL, E, SE, SO`,
