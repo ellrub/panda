@@ -64,6 +64,10 @@ main {
 
         max-width: 328px;
         min-width: 320px;
+
+        @media screen and (max-width: 420px) {
+            min-width: 328px;;
+        }
     }
 
     
