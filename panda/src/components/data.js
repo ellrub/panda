@@ -183,7 +183,7 @@ const list = [
     },
     {
         id: 46,
-        title: 'Sprøstekte kongereker med sursøtsaus',
+        title: '46. Sprøstekte kongereker med sursøtsaus',
         category: 'kongereker',
         price: "189kr",
         alergy: `GL, E, SD`,
@@ -218,7 +218,7 @@ const list = [
     },
     {
         id: 67,
-        title: 'Sprøstekt and med appelsinsaus',
+        title: '67. Sprøstekt and med appelsinsaus',
         category: 'and',
         price: "199kr",
         alergy: `GL, E`,
@@ -260,7 +260,7 @@ const list = [
     },
     {
         id: 75,
-        title: 'Tjo & Hei (HOT HOT)',
+        title: '75. Tjo & Hei (HOT HOT)',
         category: 'stekte nudler',
         price: "169kr",
         alergy: `GL, SE, E, SO`,
