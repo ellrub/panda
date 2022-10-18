@@ -38,5 +38,18 @@ header {
         .fa-utensils {
             font-size: 2rem;
         }
+
+        .header__socialmedia-links {
+            margin-top: 2rem;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            svg {
+                font-size: 3rem;
+                color: var(--secondary-color);
+            }
+        }
     }
 }
