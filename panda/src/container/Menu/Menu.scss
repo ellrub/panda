@@ -25,6 +25,10 @@ main {
         color: var(--secondary-color);
         text-decoration: underline;
         margin: 2rem 0;
+
+        @media screen and (min-width: 656px) {
+            display: none;
+        }
     }
 
     .menu__text-container {
