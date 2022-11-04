@@ -1,6 +1,7 @@
 const list = [
     {
         id: 1,
+        type: "Forretter",
         title: '01. Vårrull 2stk',
         category: 'forretter',
         price: "59kr",
@@ -43,6 +44,7 @@ const list = [
     },
     {
         id: 9,
+        type: "Biff",
         title: '09. Biff i rød karri og kokosmelk saus (HOT)',
         category: 'biff',
         price: "159kr",
@@ -92,6 +94,7 @@ const list = [
     },
     {
         id: 23,
+        type: "Kylling",
         title: '23. Kevin spesial (HOT)',
         category: 'kylling',
         price: "189kr",
@@ -155,6 +158,7 @@ const list = [
     },
     {
         id: 36,
+        type: "Svinekjøtt",
         title: '36. Sprøstekt svinekjøtt med sursøtsaus',
         category: 'svinekjøtt',
         price: "159kr",
@@ -176,6 +180,7 @@ const list = [
     },
     {
         id: 45,
+        type: "Kongereker",
         title: '45. Kongereker i rød karri & kokosmelksaus (HOT)',
         category: 'kongereker',
         price: "189kr",
@@ -211,6 +216,7 @@ const list = [
     },
     {
         id: 66,
+        type: "And",
         title: '66. Sprøstekt and med sursøtsaus',
         category: 'and',
         price: "199kr",
@@ -225,6 +231,7 @@ const list = [
     },
     {
         id: 70,
+        type: "Stekt Ris",
         title: '70. Stekt ris med biff og egg',
         category: 'stekt ris',
         price: "159kr",
@@ -239,6 +246,7 @@ const list = [
     },
     {
         id: 72,
+        type: "Stekte Nudler",
         title: '72. Stekte nudler med kylling i soyasaus',
         category: 'stekte nudler',
         price: "159kr",
@@ -267,6 +275,7 @@ const list = [
     },
     {
         id: 77,
+        type: "Grillmeny",
         title: '77. Grillet kylling med salat og pommes frites',
         category: 'grillmeny',
         price: "159kr",
@@ -274,6 +283,7 @@ const list = [
     },
     {
         id: 78,
+        type: "Barnemeny",
         title: '78. Pølse med pommes frites',
         category: 'barnemeny',
         price: "69kr",
@@ -295,6 +305,7 @@ const list = [
     },
     {
         id: 90,
+        type: "Gourmetretter",
         title: '90. Lammefilet i hvitløk chilisaus (HOT)',
         category: 'gourmetretter',
         price: "199kr",
@@ -323,6 +334,7 @@ const list = [
     },
     {
         id: 100,
+        type: "Ekstra",
         title: 'Ris',
         category: 'ekstra',
         price: "20kr",

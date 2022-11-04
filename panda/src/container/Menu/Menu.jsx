@@ -7,9 +7,10 @@ const Menu = ({items}) => {
         <>
             <main>
                 {items.map((item) => {
-                    const {id, title, alergy, price} = item;
+                    const {id, title, alergy, price, type} = item;
                     return (
                         <article key={id}>
+                                <h2 className="menu__text-type">{type}</h2>
                                 <div className="menu__text-container">
                                     <h3 className="menu__text">{title}</h3>
                                     <h3 className="menu__text">{price}</h3>

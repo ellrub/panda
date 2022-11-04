@@ -20,6 +20,12 @@ main {
     @media screen and (min-width: 1312px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
+    .menu__text-type {
+        color: var(--secondary-color);
+        text-decoration: underline;
+        margin: 2rem 0;
+    }
 
     .menu__text-container {
         display: flex;
@@ -64,6 +70,10 @@ main {
 
         max-width: 328px;
         min-width: 320px;
+
+        
+
+        align-self: flex-end ;
 
         @media screen and (max-width: 420px) {
             min-width: 328px;;
